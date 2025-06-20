@@ -6,9 +6,9 @@
 
 ## Checkpoints
 
-| Model Name           | # Parameters | Checkpoint Link                             |
+| Model Name           | # Parameters | Download Checkpoint                         |
 |----------------------|--------------|---------------------------------------------|
-| DAX-ResNet18-vA      | 125M         | [Checkpoint](https://huggingface.co/joshua-scheuplein/DAX-ResNet18-A/blob/main/dax-checkpoint-resnet18-version-a.pth) |
+| DAX-ResNet18-vA      | 125M         | [Checkpoint](https://huggingface.co/joshua-scheuplein/DAX-ResNet18-A/resolve/main/dax-checkpoint-resnet18-version-a.pth) |
 
 ## Evaluation
 
