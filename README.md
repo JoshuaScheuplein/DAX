@@ -9,6 +9,13 @@
 | Model                | # Parameters  | Download                           |
 |----------------------|--------------:|:----------------------------------:|
 | DAX-ResNet18-vA      | 125M          | [Checkpoint](https://huggingface.co/joshua-scheuplein/DAX-ResNet18-A/resolve/main/dax-checkpoint-resnet18-version-a.pth) |
+| DAX-ResNet50-vA      | 125M          | [Checkpoint](https://huggingface.co/joshua-scheuplein/DAX-ResNet50-A/blob/main/dax-checkpoint-resnet50-version-a.pth) |
+| DAX-ResNet50-vB      | 125M          | [Checkpoint]() |
+| DAX-ResNet18-vA      | 125M          | [Checkpoint]() |
+| DAX-ResNet18-vA      | 125M          | [Checkpoint]() |
+| DAX-ResNet18-vA      | 125M          | [Checkpoint]() |
+| DAX-ResNet18-vA      | 125M          | [Checkpoint]() |
+| DAX-ResNet18-vA      | 125M          | [Checkpoint]() |
 
 ## Evaluation
 
