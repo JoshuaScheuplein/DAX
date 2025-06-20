@@ -2,6 +2,8 @@
 
 ## Method
 
+![DAX_Method](figures/DAX_Methods_Figure.pdf)
+
 ## Training
 
 ## Checkpoints
