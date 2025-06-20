@@ -18,6 +18,7 @@
 | DAX-ViT-S-8-vA       | 21.7 M        | [Checkpoint](https://huggingface.co/joshua-scheuplein/DAX-ViT-S-8-A/resolve/main/dax-checkpoint-vit-s-8-version-a.pth) |
 
 ## Evaluation
+Hints on checkpoint loading and data preprocessing ...
 
 ## License
 DAX code is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
