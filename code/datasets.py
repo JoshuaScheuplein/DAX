@@ -12,12 +12,8 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 
-if platform.system() == "Windows":
-    from Implementation.utils import preprocess_image
-    from Implementation.utils import preprocess_image_v2
-else:
-    from utils import preprocess_image
-    from utils import preprocess_image_v2
+from utils import preprocess_image
+from utils import preprocess_image_v2
 
 
 ##############################################

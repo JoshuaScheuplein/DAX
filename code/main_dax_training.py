@@ -24,24 +24,14 @@ from torchvision import transforms
 from torchvision import models as torchvision_models
 from torchvision.transforms import InterpolationMode
 
-if platform.system() == "Windows":
-    from . import utils
-    ############################################
-    # from . import vision_transformer as vits
-    from . import vision_transformer_dax as vits
-    ############################################
-    from .vision_transformer import DINOHead
-    from .datasets import AzureDataset, DummyDataset
-    from .datasets import AzureDatasetV2, DummyDatasetV2
-else:
-    import utils
-    #####################################
-    # import vision_transformer as vits
-    import vision_transformer_dax as vits
-    #####################################
-    from vision_transformer import DINOHead
-    from datasets import AzureDataset, DummyDataset
-    from datasets import AzureDatasetV2, DummyDatasetV2
+import utils
+#####################################
+# import vision_transformer as vits
+import vision_transformer_dax as vits
+#####################################
+from vision_transformer import DINOHead
+from datasets import AzureDataset, DummyDataset
+from datasets import AzureDatasetV2, DummyDatasetV2
 
 
 torchvision_archs = sorted(name for name in torchvision_models.__dict__
