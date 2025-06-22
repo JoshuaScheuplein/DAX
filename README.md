@@ -1,5 +1,5 @@
 # DINO Adapted to X-Ray (DAX)
-In this repository, we provide the official implementation of "DINO Adapted to X-ray (DAX)", a novel framework that specifically adapts [DINO](https://github.com/facebookresearch/dino) for training foundational feature extraction backbones tailored to intraoperative X-ray imaging in orthopedic procedures. In addition, model checkpoints that were pre-trained a novel dataset comprising over 632,000 image samples are made available as well.
+In this repository, we provide the official implementation of "DINO Adapted to X-ray (DAX)", a novel framework that specifically adapts [DINO](https://github.com/facebookresearch/dino) for training foundational feature extraction backbones tailored to intraoperative X-ray imaging in orthopedic procedures. In addition, model checkpoints that were pre-trained on a novel dataset comprising over 632,000 image samples are made available as well.
 
 ## Method
 ![DAX_Method](figures/DAX_Method_Figure.png)
