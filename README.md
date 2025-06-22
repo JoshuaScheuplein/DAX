@@ -1,8 +1,7 @@
 # DINO Adapted to X-Ray (DAX)
 
 ## Method
-
-![DAX_Method](figures/DAX_Methods_Figure.pdf)
+![DAX_Method](figures/DAX_Method_Figure.png)
 
 ## Training
 
