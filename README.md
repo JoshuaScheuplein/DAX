@@ -25,6 +25,7 @@ torchrun --nproc_per_node=4 main_dax_training.py --arch='resnet50' --norm_last_l
 
 ## Evaluation
 In order to use the already pretrained DAX backbones for feature extraction in a custom downstream task, the script [load_checkpoints.py](code/load_checkpoints.py) demonstrates how the provided checkpoints can be loaded and used based on only a few lines of code. However, one should always apply the same image preprocessing that has also been used during model pretraining, such that the distribution of the input data aligns with the checkpoint weights. The detailed implementation of all preprocessing steps can be found in the script [utils.py](code/utils.py) and are summarized in the following figure:
+![DAX_Preprocessing](figures/DAX_Preprocessing_Figure.png)
 
 ## License
 DAX code is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
