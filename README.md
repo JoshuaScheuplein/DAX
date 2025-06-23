@@ -24,7 +24,7 @@ torchrun --nproc_per_node=4 main_dax_training.py --arch='resnet50' --norm_last_l
 ```
 
 ## Evaluation
-Hints on checkpoint loading and data preprocessing ...
+Hints on checkpoint loading and data preprocessing ... [check](code/load_checkpoints.py)
 
 ## License
 DAX code is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
