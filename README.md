@@ -28,7 +28,7 @@ In order to use the already pretrained DAX backbones for feature extraction in a
 ![DAX_Preprocessing](figures/DAX_Preprocessing_Figure.png)
 
 ## License
-DAX code is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
+This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
 
 ## Citation
 tbd.
