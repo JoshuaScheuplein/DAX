@@ -31,4 +31,16 @@ In order to use the already pretrained DAX backbones for feature extraction in a
 This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for additional details.
 
 ## Citation
-tbd.
+```bibtex
+@inproceedings{10.1007/978-3-032-05127-1_14,
+	abstract = {Intraoperative X-ray imaging represents a key technology for guiding orthopedic interventions. Recent advancements in deep learning have enabled automated image analysis in this field, thereby streamlining clinical workflows and enhancing patient outcomes. However, many existing approaches depend on task-specific models and are constrained by the limited availability of annotated data. In contrast, self-supervised foundation models have exhibited remarkable potential to learn robust feature representations without label annotations. In this paper, we introduce DINO Adapted to X-ray (DAX), a novel framework that adapts DINO for training foundational feature extraction backbones tailored to intraoperative X-ray imaging. Our approach involves pre-training on a novel dataset comprising over 632,000 image samples, which surpasses other publicly available datasets in both size and feature diversity. To validate the successful incorporation of relevant domain knowledge into our DAX models, we conduct an extensive evaluation of all backbones on three distinct downstream tasks and demonstrate that small head networks can be trained on top of our frozen foundation models to successfully solve applications regarding (1) body region classification, (2) metal implant segmentation, and (3) screw object detection. The results of our study underscore the potential of the DAX framework to facilitate the development of robust, scalable, and clinically impactful deep learning solutions for intraoperative X-ray image analysis. Source code and model checkpoints are available at https://github.com/JoshuaScheuplein/DAX.},
+	address = {Cham},
+	author = {Scheuplein, Joshua and Rohleder, Maximilian and Maier, Andreas and Kreher, Bj{\"o}rn},
+	booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+	editor = {Gee, James C. and Alexander, Daniel C. and Hong, Jaesung and Iglesias, Juan Eugenio and Sudre, Carole H. and Venkataraman, Archana and Golland, Polina and Kim, Jong Hyo and Park, Jinah},
+	isbn = {978-3-032-05127-1},
+	pages = {138--148},
+	publisher = {Springer Nature Switzerland},
+	title = {DINO Adapted to X-Ray (DAX): Foundation Models for Intraoperative X-Ray Imaging},
+	year = {2026}}
+
